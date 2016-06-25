@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Metode">
+        <menu>
+            <item
+                android:id="@+id/filter_gray"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Grayscale" />
+            <item
+                android:id="@+id/filter_sobel"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sobel" />
+            <item
+                android:id="@+id/filter_laplace"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Laplace" />
+            <item
+                android:id="@+id/filter_canny"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Canny" />
+            <item
+                android:id="@+id/filter_hough"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Hough" />
+            <item
+                android:id="@+id/nav_lbp"
+                android:icon="@drawable/ic_menu_send"
+                android:title="LBP" />
+        </menu>
+    </item>
+    <!--<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/filter_gray"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Grayscale" />
+        <item
+            android:id="@+id/filter_sobel"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sobel" />
+        <item
+            android:id="@+id/filter_laplace"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Laplace" />
+        <item
+            android:id="@+id/filter_canny"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Canny" />
+        <item
+            android:id="@+id/filter_hough"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Hough" />
+        <item
+            android:id="@+id/filter_gradient"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="LBP" />
+    </group>-->
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
