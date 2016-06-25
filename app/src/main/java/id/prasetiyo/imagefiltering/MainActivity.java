@@ -35,8 +35,7 @@ import org.opencv.imgproc.Imgproc;
 import java.io.File;
 import java.io.IOException;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private final int INTENT_CODE=1101;
     private static final int REQUEST_LOAD_IMAGE = 10011;
     private static final int REQUEST_TAKE_IMAGE = 10012;
@@ -112,20 +111,6 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
-
-        /*if (id == R.id.filter_sobel) {
-            sobel();
-        } else if (id == R.id.filter_laplace) {
-            laplace();
-        } else if (id == R.id.filter_canny) {
-            canny();
-        } else if (id == R.id.filter_hough) {
-            hough();
-        } else if (id == R.id.filter_gray){
-            toGRAY();
-        } else if (id == R.id.nav_lbp){
-            startActivity(new Intent(this,LBPActivity.class));
-        }*/
         if (id !=R.id.nav_lbp){
             new runFilter().execute(id);
         } else {
