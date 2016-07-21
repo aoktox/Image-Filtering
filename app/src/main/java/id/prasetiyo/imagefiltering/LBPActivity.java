@@ -50,12 +50,12 @@ import id.prasetiyo.imagefiltering.model.ResultModel;
 
 public class LBPActivity extends AppCompatActivity {
     private final String lokasi= Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)+"/LBP/";
-    private final String lokasi2= Environment.getExternalStorageDirectory().getAbsolutePath();
+    //private final String lokasi2= Environment.getExternalStorageDirectory().getAbsolutePath();
     private final int INTENT_CODE=1101;
     private static final int REQUEST_LOAD_IMAGE = 10011;
-    private static final int REQUEST_TAKE_IMAGE = 10012;
+    //private static final int REQUEST_TAKE_IMAGE = 10012;
     private static final int PICKFILE_REQUEST_CODE = 10013;
-    private Uri fileUri;
+    //private Uri fileUri;
     private File imageFile;
     private Bitmap bmp_asli;
     private ArrayList<String> datasheet;
